@@ -1,0 +1,17 @@
+-------------------------------------------------------------------------------
+Test set: test.SearchTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 36.865 s <<< FAILURE! - in test.SearchTest
+searchNikonCamera(test.SearchTest)  Time elapsed: 31.9 s  <<< ERROR!
+org.openqa.selenium.TimeoutException: 
+timeout: Timed out receiving message from renderer: 29,759
+  (Session info: chrome=88.0.4324.96)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aantonovs', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-66-generic', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+selenide.url: http://www.demoshop24.com
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.n4g2GK}, goog:chromeOptions: {debuggerAddress: localhost:40747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+selenide.baseUrl: http://localhost:8080
+Session ID: f256ea62823ced78ded9ce5d31e78331
+	at test.SearchTest.searchNikonCamera(SearchTest.java:16)
+

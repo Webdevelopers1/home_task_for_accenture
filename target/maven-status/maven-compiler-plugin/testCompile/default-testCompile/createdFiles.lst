@@ -1,0 +1,7 @@
+page/LoginPage.class
+page/SearchPage.class
+page/ProductPage.class
+test/AddToCardTest.class
+test/LoginTest.class
+WebDriverSettings.class
+test/SearchTest.class

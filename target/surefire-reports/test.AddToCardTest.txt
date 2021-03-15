@@ -1,0 +1,24 @@
+-------------------------------------------------------------------------------
+Test set: test.AddToCardTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 25.433 s <<< FAILURE! - in test.AddToCardTest
+AddToCardNikonD300Test(test.AddToCardTest)  Time elapsed: 25.432 s  <<< FAILURE!
+com.codeborne.selenide.ex.ElementNotFound: 
+Element not found {#content > div:nth-child(3) > div:nth-child(2) > div > div:nth-child(2) > div.caption > h4 > a}
+Expected: visible
+Page source: file:/home/aantonovs/IdeaProjects/accentureHomeWork/build/reports/tests/1615807434966.0.html
+Timeout: 4 s.
+Caused by: NoSuchWindowException: no such window: target window already closed
+	at test.AddToCardTest.AddToCardNikonD300Test(AddToCardTest.java:14)
+Caused by: org.openqa.selenium.NoSuchWindowException: 
+no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=88.0.4324.96)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'aantonovs', ip: '127.0.1.1', os.name: 'Linux', os.arch: 'amd64', os.version: '5.4.0-66-generic', java.version: '11.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: true, browserName: chrome, browserVersion: 88.0.4324.96, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: /tmp/.com.google.Chrome.n4g2GK}, goog:chromeOptions: {debuggerAddress: localhost:40747}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f256ea62823ced78ded9ce5d31e78331
+*** Element info: {Using=css selector, value=#content > div:nth-child(3) > div:nth-child(2) > div > div:nth-child(2) > div.caption > h4 > a}
+	at test.AddToCardTest.AddToCardNikonD300Test(AddToCardTest.java:14)
+
